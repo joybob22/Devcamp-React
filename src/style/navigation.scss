@@ -1,0 +1,51 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    .right-side {
+        a {
+            margin-left: 15px;
+            color: $teal;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                cursor: pointer;
+                color: $dark-teal
+            }
+        }
+    }
+
+    .left-side {
+        display: flex;
+    }
+
+    .nav-link-wrapper {
+        
+        margin-right: 20px;
+        text-transform: uppercase;
+        
+
+
+
+        a {
+            color: $grey;
+            text-decoration: none;
+            height: 22px;
+            border-bottom: 1px solid transparent;
+            transition: 0.5s ease-in-out;
+            font-size: 0.9rem;
+            padding-bottom: 5px;
+            &:hover {
+                color: black;
+                border-bottom: 1px solid black;
+            }
+        }
+        
+
+        .nav-link-active {
+            border-bottom: 1px solid black;
+            color: black;
+
+        }
+    }
+}
