@@ -4,6 +4,7 @@
 
     .portfolio-item-wrapper {
         position: relative;
+        
 
         .portfolio-img-background {
             background-size: cover;
@@ -11,6 +12,7 @@
             background-repeat: no-repeat;
             height: 350px;
             width: 100%;
+            filter: brightness(70%);
         }
 
         .img-text-wrapper {
@@ -46,5 +48,5 @@
 
 .image-blur {
     transition: 1s;
-    filter: brightness(10%);
+    filter: brightness(10%) !important;
 }
